@@ -1,0 +1,56 @@
+stop aA1:C48fter a year!		
+nocdm_doubling_1860		
+date	19-Jun	21-Jun
+last restart avail	::	1909
+gmax	0.5	0.5
+hotstart	no	yes
+coldstart	yes	no
+initC	1860	1860
+		
+nocdm_doubling_1880		
+date	19-Jun	21-Jun
+last restart avail	::	1928
+gmax	0.5	0.5
+hotstart	no	yes
+coldstart	yes	no
+initC	1880	1880
+		
+nocdm_doubling_1900		
+date	19-Jun	21-Jun
+last restart avail	::	1948
+gmax	0.5	0.5
+hotstart	no	yes
+coldstart	yes	no
+initC	1900	1900
+		
+acdm_doubling_1860		
+date		21-Jun
+last restart avail		2189
+gmax		0.5
+hotstart		yes
+coldstart		no
+initC		1860
+		
+acdm_doubling_1900		
+date		21-Jun
+last restart avail		1990
+gmax		0.51
+hotstart		no
+coldstart		yes
+initC		set initCond = /datascope/pradal-esm/acdm_doubling_1900/restart/19900101.cpio
+		
+acdm_1000yr_restart2		
+date		21-Jun
+last restart avail		2565
+gmax		0.5
+hotstart		yes
+coldstart		no
+initC		 set initCond = /datascope/pradal-esm/acdm_1000yr/restart/17870101.cpio
+		
+nocdm_1000yr_restart2		
+date		21-Jun
+last restart avail		1516
+gmax		0.51
+hotstart		yes
+coldstart		no
+initC		1501
